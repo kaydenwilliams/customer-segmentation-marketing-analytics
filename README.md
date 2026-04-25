@@ -9,6 +9,7 @@ Python, pandas, scikit-learn, matplotlib, Tableau
 ## Dataset
 E-Commerce Customer Behavior & Sales (2020–2026) — Kaggle
 8,000 customers, 25,000 orders, 14 product categories
+https://www.kaggle.com/datasets/meruvakodandasuraj/e-commerce-customer-behavior-and-sales-20202026?resource=download
 
 ## Business Questions
 1. Who are our most valuable customers and what segments do they fall into?
