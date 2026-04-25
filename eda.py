@@ -73,3 +73,19 @@ churn_analysis = customers.groupby('churned').agg(
 ).round(2)
 
 print(churn_analysis)
+
+# Save churn analysis
+churn_analysis.to_csv('outputs/churn_analysis.csv')
+
+# Churn rate print
+churn_rate = round(715/8000*100, 1)
+print(f"Overall churn rate: {churn_rate}%")
+
+# Save category performance
+category_performance.to_csv('outputs/category_performance.csv')
+
+print("=== KEY FINDINGS ===")
+print(f"VIP customers: 190 (2.4% of base), Avg spend: $11,612")
+print(f"At-Risk customers: 1,289 (16.1% of base), Avg 165 days since purchase")
+print(f"Electronics revenue: $1.08M — {round(1082575/2900000*100,1)}% of total revenue")
+print(f"Churn rate: 8.9% — churned customers spent 23.5% less and had 69% longer purchase gaps")
