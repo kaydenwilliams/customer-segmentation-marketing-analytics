@@ -43,3 +43,4 @@ E-Commerce Customer Behavior & Sales (2020–2026) — Kaggle
 - `executive_summary.pdf` — plain English findings for non-technical stakeholders
 
 ## Tableau Dashboard
+https://public.tableau.com/app/profile/kayden.williams2622/viz/CustomerSegmentationMarketingAnalysisDashboard/Dashboard1?publish=yes
