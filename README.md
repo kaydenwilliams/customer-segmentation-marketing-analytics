@@ -23,15 +23,6 @@ https://www.kaggle.com/datasets/meruvakodandasuraj/e-commerce-customer-behavior-
 - Travel & Luggage had the highest return rate at 10.0% despite moderate revenue
 - 8.9% overall churn rate — churned customers averaged 94.9 days since last purchase vs 56.1 days for active customers and spent 23.5% less ($1,218 vs $1,592)
 
-## Business Recommendations
-1. Launch a VIP retention program — 190 customers averaging $11,612 spend represent 
-   disproportionate revenue; losing even 10% is a significant financial impact
-2. Create re-engagement campaigns targeting the 1,289 At-Risk customers who haven't 
-   purchased in 165 days on average
-3. Investigate Travel & Luggage return rate — 10% return rate is the highest of any 
-   category and directly erodes margin
-4. Focus acquisition spend on converting New/Occasional buyers — at 59.8% of the base, even a 10% conversion to Loyal Mid-Tier would meaningfully grow revenue
-
 ## Files
 - `clean.py` — data cleaning and datetime conversion
 - `eda.py` — RFM analysis, K-Means clustering, product performance, churn analysis
@@ -45,3 +36,12 @@ https://www.kaggle.com/datasets/meruvakodandasuraj/e-commerce-customer-behavior-
 
 ## Tableau Dashboard
 https://public.tableau.com/app/profile/kayden.williams2622/viz/CustomerSegmentationMarketingAnalysisDashboard/Dashboard1?publish=yes
+
+## Business Recommendations
+1. Launch a VIP retention program — 190 customers averaging $11,612 spend represent 
+   disproportionate revenue; losing even 10% is a significant financial impact
+2. Create re-engagement campaigns targeting the 1,289 At-Risk customers who haven't 
+   purchased in 165 days on average
+3. Investigate Travel & Luggage return rate — 10% return rate is the highest of any 
+   category and directly erodes margin
+4. Focus acquisition spend on converting New/Occasional buyers — at 59.8% of the base, even a 10% conversion to Loyal Mid-Tier would meaningfully grow revenue
